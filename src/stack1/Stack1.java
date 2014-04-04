@@ -49,6 +49,15 @@ public class Stack1 {
 		return tos==0;
 	}
 	
+	public Object[] getOs() {
+		return this.os;
+		
+	}
+	
+	public int getTos() {
+		return tos;
+	}
+	
 	/**
 	 * Prüft, ob der Stapel voll ist. 
 	 * @return True wenn voll, sonst false.
